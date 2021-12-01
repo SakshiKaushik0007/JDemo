@@ -2,7 +2,7 @@
 - name: This is a hello-world example
   hosts: ansibleclient01.local
   tasks:
-    - name: Create a file called 'C:\src\testfile.txt' with the content 'hello world'.
+    - name: Create a file called 'C:\cygwin64\usr\local\bin\testfile.txt' with the content 'hello world'.
       copy:
         content: hello worldn
-        dest: C:\src\testfile.txt
+        dest: C:\cygwin64\usr\local\bin\testfile.txt
